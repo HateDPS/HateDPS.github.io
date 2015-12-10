@@ -1,0 +1,44 @@
+body{
+	font-family: fantasy, serif, sans-serif;
+}
+
+.centerMe{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	border-style: groove;
+	border-width: 10;
+	font-style: serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2.5em;
+	background-color: yellow;
+	
+}
+
+h2{
+	margin-left: 50px;
+	margin-right: 50px;
+	color: black;
+	background-color: purple;
+	border-style: double;
+	border-radius: 15px;
+	border-width: 7px;
+}
+
+ol{
+	font-size: 1.5em;
+	font-style: fantasy;
+	margin: 50px;
+}
+
+.addMargin{
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+}
