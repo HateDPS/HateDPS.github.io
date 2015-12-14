@@ -1,6 +1,6 @@
 body{
 	font-family: fantasy, serif, sans-serif;
-	background-color: plum;
+	background-color: lightgreen;
 }
 
 .centerMe{
@@ -45,7 +45,27 @@ h1{
 	
 }
 
-h2{
+.shohoku{
+	margin-left: 50px;
+	margin-right: 50px;
+	color: black;
+	background-color: red;
+	border-style: double;
+	border-radius: 15px;
+	border-width: 7px;
+}
+
+.ryonan{
+	margin-left: 50px;
+	margin-right: 50px;
+	color: black;
+	background-color: lightblue;
+	border-style: double;
+	border-radius: 15px;
+	border-width: 7px;
+}
+
+.kainan{
 	margin-left: 50px;
 	margin-right: 50px;
 	color: black;
@@ -58,7 +78,7 @@ h2{
 ol{
 	font-size: 1.5em;
 	font-style: fantasy;
-	margin: 50px;
+	margin:50px;
 }
 
 .addMargin{
