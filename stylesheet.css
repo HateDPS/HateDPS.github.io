@@ -3,22 +3,18 @@ body{
 	background-color: lightgreen;
 }
 
-.centerMe{
-	text-align: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+nav ul{
+	list-style-type: none; 
+	margin: 0;
+	padding: 0; 
+	background-color: grey;
+	width: 175px;
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 
-nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 150px;
-	background-color: #f1f1f1;
-	position: fixed;
-}
- 
 nav ul li a{
 	display: block;
 	text-decoration: none;
@@ -27,6 +23,33 @@ nav ul li a{
 	padding-bottom: 8px;
 	padding-left: 16px;
 }
+
+nav ul li a:hover {
+	background-color:#555;
+	color: #fff
+}
+
+.imgRight{
+	float: right;
+	padding: 25px;
+	max-width: 50%;
+}
+#mainContent{
+	margin-left: 150px;
+	margin-right: 75px;
+}
+
+.centerMe{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+img{
+	max-width: 100%;
+	height: auto;
+ }
 
 .active{
 	background-color: #4CAF50;
@@ -38,51 +61,85 @@ h1{
 	border-width: 10;
 	font-style: serif;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 75px;
+	margin-right: 75px;
 	font-size: 2.5em;
 	background-color: yellow;
-	
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .shohoku{
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 75px;
+	margin-right: 75px;
 	color: black;
 	background-color: red;
 	border-style: double;
 	border-radius: 15px;
 	border-width: 7px;
+	font-size: 1.5em;
 }
 
 .ryonan{
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 75px;
+	margin-right: 75px;
 	color: black;
 	background-color: lightblue;
 	border-style: double;
 	border-radius: 15px;
 	border-width: 7px;
+	font-size: 1.5em;
 }
 
 .kainan{
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 75px;
+	margin-right: 75px;
 	color: black;
 	background-color: purple;
 	border-style: double;
 	border-radius: 15px;
 	border-width: 7px;
+	font-size: 1.5em;
 }
 
 ol{
 	font-size: 1.5em;
 	font-style: fantasy;
-	margin:50px;
+	margin-left: 100px;
+	margin-right: 75px;
+	float: left;
 }
 
-.addMargin{
-	display: block;
-	margin-left: 50px;
-	margin-right: 50px;
+@media screen and (max-width: 600px) {
+	nav ul{
+		list-style-type: none; 
+		margin: 0;
+		padding: 0; 
+		background-color: grey;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: auto;
+	}
+	
+	nav ul li{
+		float: left;
+	}
+ 
+	nav ul li a{
+		display: block;
+		text-decoration: none;
+		color: #000;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	
+	#mainContent {
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 5%;
+	} 
 }
